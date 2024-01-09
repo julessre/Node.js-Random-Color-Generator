@@ -11,6 +11,7 @@ luminosity (e.g. light or dark)
 
 # TODO
 
-[ ] figure out how to enter the color code
-[ ] figure out how to create the block of 31x9 characters
-[ ] figure out how to show the block in a random color
+[x] figure out how to enter the color code
+[x] figure out how to create the block of 31x9 characters
+[x] figure out how to show the block in a random color
+[x] figure out how to change the color with hue or luminosity

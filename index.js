@@ -19,7 +19,7 @@ if (colorName) {
     hue: colorName,
   });
 } else {
-  userColor = randomColor();
+  color = randomColor();
 }
 
 console.log(

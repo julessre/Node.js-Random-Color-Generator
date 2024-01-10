@@ -4,6 +4,7 @@ import randomColor from 'randomcolor';
 
 const color = randomColor();
 
+let finalColor;
 const colorName = argv[2];
 const luminosity = argv[3];
 const userColor = randomColor({
@@ -12,6 +13,15 @@ const userColor = randomColor({
 });
 
 const changeColor = chalk.hex(userColor);
+
+if (colorName) {
+  finalColor = randomColor({
+    luminosity: luminosity,
+    hue: colorName,
+  });
+} else {
+  finalColor = randomColor();
+}
 
 console.log(
   changeColor(`###############################
